@@ -7,9 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>US Phone Number Validator</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    </style>
 </head>
 
 <body>
+    <form>
+        <h1>US Phone Number Validator</h1>
+        <label for="input">Please enter a phone number below and press Submit to check if it has the correct US Phone
+            Number format </label><br>
+        <input type="string" id="input" name="input" required>
+        <input type="submit" id="submit">
+        <p id="result"></p>
+    </form>
     <script src="script.js"></script>
 </body>
 

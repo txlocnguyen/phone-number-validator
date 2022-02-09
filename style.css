@@ -1,0 +1,35 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin: 35vh 0;
+    color: #fab457;
+    font-size: 1.5rem;
+    background-color: #2e211e;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    margin: 15px auto;
+    max-width: 75%;
+}
+
+#input {
+    margin-top: 15px;
+}
+
+#result {
+    font-weight: bolder;
+    overflow-wrap: break-word;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: #c2e69c
+}
+
+#submit:hover {
+    background-color: #8be82a
+}
