@@ -1,5 +1,5 @@
-# phone-number-validator
-
+# <a href="https://txlocnguyen.github.io/phone-number-validator/">phone-number-validator</a>
+Check it out <a href="https://txlocnguyen.github.io/phone-number-validator/">here</a><br><br>
 Return true if the passed string looks like a valid US phone number.<br>
 The user may fill out the form field any way they choose as long as it has the format of a valid US number.<br><br>
 Some sample tests:
