@@ -6,10 +6,10 @@ function phoneValidator(str) {
 function printAnswer(yourNum, answer) {
     let result = document.getElementById("result");
     if (answer === false) {
-        result.innerHTML = `False. <span style="color:#f08348;">${yourNum}</span> is not in valid format for US Phone Number`;
+        result.innerHTML = `False. <span style="color:#f08348;">${yourNum}</span> is not in the valid format for US Phone Number`;
         result.style.color = 'red';
     } else {
-        result.innerHTML = `True. <span style="color:#f08348;">${yourNum}</span> is in valid format for US Phone Number`;
+        result.innerHTML = `True. <span style="color:#f08348;">${yourNum}</span> is in the valid format for US Phone Number`;
         result.style.color = 'green';
     }
 }
