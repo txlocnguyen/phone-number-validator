@@ -28,6 +28,14 @@ Some sample tests:
 
 "1 456 789 4444" should return true.
 
+"+1 555 555 5555" should return true.
+
+"+1-555 555 5555" should return true.
+
+"+1555 555 5555" should return true.
+
+"+555 555 5555" should return false.
+
 "123**&!!asdf#" should return false.
 
 "55555555" should return false.
